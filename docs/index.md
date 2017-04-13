@@ -12,4 +12,13 @@ func init() {
         WithDialect(sqlr.MySQL),
         WithNamingConvention(sqlr.SnakeCase),
     )
+}
+```
+
+Now some Ruby.
+
+```ruby
+def my_method
+    puts "hello world\n"
+end
 ```
